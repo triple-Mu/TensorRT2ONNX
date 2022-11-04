@@ -33,6 +33,12 @@ trtexec --verbose \
 
 You will parser `your_engine.engine` network information into `graph.json`
 
+## Install TensorRT2ONNX
+
+```shell
+pip3 install trt2onnx -i https://pypi.org/simple
+```
+
 ## Build a fake onnx from graph json
 
 ```python
