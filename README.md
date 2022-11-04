@@ -1,6 +1,6 @@
 # TensorRT2ONNX
 
-A tools convert TensorRT engine/plan to a fake onnx
+A tool convert TensorRT engine/plan to a fake onnx
 
 ## Build an engine from onnx using trtexec tools
 
