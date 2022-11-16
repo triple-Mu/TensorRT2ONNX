@@ -85,7 +85,9 @@ class TensorRT2ONNX:
         elif 'int32' in desc:
             return onnx.TensorProto.INT32
         else:
-            raise ValueError(f'Uknown precision {desc}')
+            print(f'Uknown precision {desc}')
+            print('Set tensor type float default ')
+            return onnx.TensorProto.FLOAT
 
     @staticmethod
     def add_attributes(layer, node_def):
